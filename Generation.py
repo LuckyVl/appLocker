@@ -159,7 +159,8 @@ def generation_list_block():
         for i in dir_files_hr:
             if "_Отсутствия_СБТ" in i:
                 if ".xlsx" in i:
-                    clear_dir_files_hr.append(i)
+                    if "~$" not in i:
+                        clear_dir_files_hr.append(i)
         clear_dir_files_hr.sort(reverse=True)
         # print(clear_dir_files_hr)
 
