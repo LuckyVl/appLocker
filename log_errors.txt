@@ -1,0 +1,386 @@
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 289, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 315, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 290, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 316, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 291, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 317, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 190, in generation_list_block
+    df_net.to_csv(temp_file_hr, index=False, sep = ';', encoding='windows-1251')
+NameError: name 'df_net' is not defined
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 318, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 190, in generation_list_block
+    df_net.to_csv(temp_file_hr, index=False, sep = ';', encoding='windows-1251')
+NameError: name 'df_net' is not defined
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 318, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 180, in generation_list_block
+    if _i[2] in _i2[2]:
+IndexError: string index out of range
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 318, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 181, in generation_list_block
+    if _i[2] == _i2[2]:
+IndexError: string index out of range
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 319, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 181, in generation_list_block
+    print(_i2[2])
+IndexError: string index out of range
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 320, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 182, in generation_list_block
+    if _i[2] == _i2[2]:
+IndexError: string index out of range
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 320, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 294, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 320, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 178, in generation_list_block
+    for _i in df_net_old.columns.item():
+  File "C:\appLockerUser\lib\site-packages\pandas\core\base.py", line 347, in item
+    raise ValueError("can only convert an array of size 1 to a Python scalar")
+ValueError: can only convert an array of size 1 to a Python scalar
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 320, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 309, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 335, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 309, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 335, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 215, in generation_list_block
+    with open(delta_file_hr, mode="w+") as w_file:
+PermissionError: [Errno 13] Permission denied: 'C:\\WORK\\appLockerUser\\files\\delta_file_hr.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 335, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 309, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 335, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 216, in generation_list_block
+    with open(delta_file_hr, mode="w+") as w_file:
+PermissionError: [Errno 13] Permission denied: 'C:\\WORK\\appLockerUser\\files\\delta_file_hr.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 336, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 215, in generation_list_block
+    print(delta_HR)
+KeyboardInterrupt
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 336, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 216, in generation_list_block
+    with open(delta_file_hr, mode="w+") as w_file:
+PermissionError: [Errno 13] Permission denied: 'C:\\WORK\\appLockerUser\\files\\delta_file_hr.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 336, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 216, in generation_list_block
+    with open(delta_file_hr, mode="w+") as w_file:
+PermissionError: [Errno 13] Permission denied: 'C:\\WORK\\appLockerUser\\files\\delta_file_hr.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 336, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 310, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 336, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 216, in generation_list_block
+    with open(delta_file_hr, mode="w+") as w_file:
+PermissionError: [Errno 13] Permission denied: 'C:\\WORK\\appLockerUser\\files\\delta_file_hr.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 336, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 310, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 336, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 307, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 333, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 307, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 333, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 308, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 334, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 214, in generation_list_block
+    print("добавляем " + _i)
+TypeError: can only concatenate str (not "tuple") to str
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 336, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 215, in generation_list_block
+    print("добавляем " + _i)
+TypeError: can only concatenate str (not "tuple") to str
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 337, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 215, in generation_list_block
+    print("добавляем " + _i)
+TypeError: can only concatenate str (not "tuple") to str
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 337, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 216, in generation_list_block
+    print("добавляем " + _i)
+TypeError: can only concatenate str (not "tuple") to str
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 338, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 309, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 335, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 308, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 334, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 312, in generation_list_block
+    with open(r"\\sbt-oib-001\OIB\LockUZ\forZNO\ZNO_block.csv", mode="w+") as w_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\forZNO\\ZNO_block.csv'
+
+
+Traceback (most recent call last):
+  File "C:\WORK\appLockerUser\Generation.py", line 338, in generation_list_activate
+    with open(old_block, mode="r") as r_file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\sbt-oib-001\\OIB\\LockUZ\\files\\old_block.csv'
+

@@ -127,30 +127,35 @@ def start():
     try:
         generation_list_block()
         generation_list_activate()
-        return
+        return "Готово"
     except:
         msg = str(traceback.format_exc())
         save_log_errors(msg)
         return msg
 
+#\\sbt-oib-001\OIB\LockUZ
+#C:\WORK\appLockerUser\
 
 # создание списка блокировки
 def generation_list_block():
     try:
         dir_hr = r"\\sbt-oib-001\OIB\LockUZ\HR"
-        temp_file_hr = r"\\sbt-oib-001\OIB\LockUZ\files\temp_file_hr.csv"
+        temp_file_hr_new = r"\\sbt-oib-001\OIB\LockUZ\files\temp_file_hr_new.csv"
+        temp_file_hr_old = r"\\sbt-oib-001\OIB\LockUZ\files\temp_file_hr_old.csv"
+        delta_file_hr = r"\\sbt-oib-001\OIB\LockUZ\files\delta_file_hr.csv"
         file_block = r"\\sbt-oib-001\OIB\LockUZ\files\block.csv"
         except_file = r"\\sbt-oib-001\OIB\LockUZ\files\except.csv"
         old_file_block = r"\\sbt-oib-001\OIB\LockUZ\files\old_block.csv"
         dir_files_hr = os.listdir(dir_hr)
         clear_dir_files_hr = []
         start_DB = []
+        start_DB_old = []
         except_DB = []
         clear_DB = []
         clear_DB_2 = []
         clear_DB_3  = []
         idUAC = ["514","546", "66050"]
-
+        delta_HR = []
 # сохраняем block в old_block
         shutil.copyfile(file_block, old_file_block)
 
@@ -164,15 +169,22 @@ def generation_list_block():
         clear_dir_files_hr.sort(reverse=True)
         # print(clear_dir_files_hr)
 
-# читаем файл выгрузки HR удаляем лишнее и сохраняем в temp_file_hr.csv
+# читаем файлы выгрузки HR удаляем лишнее и сохраняем в temp_file_hr.csv
         file_name = dir_hr + "\\" + clear_dir_files_hr[0]
         # print(file_name)
-        df_net = pd.read_excel(file_name, sheet_name=0)
-        # print(df_net)
-        df_net.to_csv(temp_file_hr, index=False, sep = ';', encoding='windows-1251')
+        df_net_new = pd.read_excel(file_name, sheet_name=0)
+        df_net_new.to_csv(temp_file_hr_new, index=False, sep = ';', encoding='windows-1251')
+        # print(df_net_new)
+        if clear_dir_files_hr[1]:
+            file_name_2 = dir_hr + "\\" + clear_dir_files_hr[1]
+            df_net_old = pd.read_excel(file_name_2, sheet_name=0)
+            df_net_old.to_csv(temp_file_hr_old, index=False, sep=';', encoding='windows-1251')
+            # print(df_net_old)
+        else:
+            pass
 
-# читаем файл temp_file_hr.csv и сохраняем в переменную
-        with open(temp_file_hr, mode="r") as r_file:
+# читаем файл temp_file_hr_new.csv и сохраняем в переменную
+        with open(temp_file_hr_new, mode="r") as r_file:
             file_read = csv.reader(r_file, delimiter=";")
             for row in file_read:
                 if "ФИО сотрудника" in row:
@@ -182,6 +194,34 @@ def generation_list_block():
                 # print(line)
                     start_DB.append(line)
             # print(start_DB)
+
+# читаем файл temp_file_hr_old.csv и сохраняем в переменную
+        with open(temp_file_hr_old, mode="r") as r_file:
+            file_read = csv.reader(r_file, delimiter=";")
+            for row in file_read:
+                if "ФИО сотрудника" in row:
+                    pass
+                else:
+                    line = row[1], row[2], row[3], row[4], row[5]
+                    # print(line)
+                    start_DB_old.append(line)
+            # print(start_DB_old)
+
+# создаем дельту сотрудников из HR файлов
+        for _i in start_DB_old:
+            counter = 0
+            # print(_i)
+            for _i2 in start_DB:
+                if _i[1] in _i2:
+                    counter = counter + 1
+            if counter == 0:
+                delta_HR.append(_i)
+        # print(delta_HR)
+        with open(delta_file_hr, mode="w+") as w_file:
+            file_write = csv.writer(w_file, delimiter=";", lineterminator="\r")
+            for row in delta_HR:
+                line = row[0], row[1], row[2], row[3], row[4]
+                file_write.writerow(line)
 
 # считываем исключений из файла except.csv
         with open(except_file, mode="r") as r_file:
