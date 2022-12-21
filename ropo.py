@@ -25,5 +25,5 @@ else:
     pathin = list2[1] + temp[-1]
 # print(pathin)
 print("Копирование...")
-# shutil.copytree(pathout,pathin)
+shutil.copytree(pathout,pathin)
 print("Копирование выполнено")
