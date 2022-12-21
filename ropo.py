@@ -2,6 +2,7 @@ import shutil, re, os
 
 list1 = []
 list2 = []
+print("Подготовка")
 # считываем адреса откуда и куда
 with open("resurse.txt") as file:
     for item in file:
@@ -17,6 +18,12 @@ pathout = list2[0]
 # print(pathout)
 temp = pathout.split("\\")
 # print(temp)
-pathin = list2[1] + temp[-2]
+# print(temp[-1])
+if temp[-1] == "":
+    pathin = list2[1] + temp[-2]
+else:
+    pathin = list2[1] + temp[-1]
 # print(pathin)
-shutil.copytree(pathout,pathin)
+print("Копирование...")
+# shutil.copytree(pathout,pathin)
+print("Копирование выполнено")
